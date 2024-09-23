@@ -17,7 +17,7 @@ allows the specification of the range of Popt values; by default it is the whole
 main.cpp to see the order that command-line parameters are listed when running the analysis.
 
 runFitnessOverdomPoptB6Script.sh
-If using more than bitstrings greater than length 4 while allowing all three sites to vary, I recommending running each Popt value 
+If using bitstrings greater than length 4 while allowing all three sites to vary, I recommending running each Popt value 
 separately on a computational cluster, using a batch script.   
 This batch file is for the 6-bit case, with each Popt value on a different core.  
 Individual Popt runs can take from a few minutes to several days or even weeks.
